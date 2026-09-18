@@ -68,18 +68,40 @@ Prompt 4:
 Be more specific on how the professional headers and all of that should look like.
 ```
 
+Prompt 5:
+
+```
+Could you describe me the correct way to build a WBS and what elements should include?
+```
+
+Prompt 6:
+
+```
+Now could you describe me the correct way of how a timeline for a project like this should look like? How does the Gantt chart should be implemented in a project like this?
+```
+
+Prompt 7:
+
+```
+Do you recommend me to use Power Point to build both WBS and Gantt chart?
+```
+
 **What I kept and what I changed:**
 
 What I kept as guidance:
 - The general idea that an SRS moves from high level context toward specific requirements (introduction, overall description, then specific requirements including use cases and functional and nonfunctional requirements). This informed how I laid out Section 4.
 - A checklist of what a Vision and Scope section should contain (company profile, how the project was acquired, the business problem, what is in scope and out of scope, and constraints). This informed the subsections of Section 3.
 - Formatting conventions, which informed my cover page, my running header and footer, my table of contents with leader dots limited to heading level three, my figure and table caption format, and the document conventions listed in Section 1.3.
+- The idea of a deliverable oriented Work Breakdown Structure organized in hierarchy levels (the overall project, major subsystems, deliverables, and work packages), the rule that the breakdown should cover one hundred percent of the scope, and the guidance that a work package should represent roughly one day to two weeks of work. This informed how I plan the Work Breakdown Structure in the project management section.
+- The phase based semester timeline (initiation and scope, requirements, system design and project management plan, implementation and integration, quality assurance, and final delivery) and the essential elements of a Gantt chart (task identifier and name, start and end dates, predecessors, assigned team, and percent complete). This informed how I plan the project schedule and Gantt chart.
+- The recommendation to build the Work Breakdown Structure and the Gantt chart in a dedicated tool and insert them as captioned images rather than building them in PowerPoint. This informed my tooling choice for those diagrams.
 
 What I changed or wrote myself:
 - I did not use Gemini's proposed top level outline as it was. I reorganized the document into my own structure: a dedicated Introduction (Purpose, Intended Audience, Document Conventions), followed by separate top level sections for Research and Competitive Analysis, Vision and Scope, the Software Requirements Specification, Stakeholder Analysis and Management, Project Schedule, Budget, Risk Management, Team Structure and Coordination, Appendices, and References.
 - I wrote all of the content in my own words. The competitive analysis of SpotHero, ParkWhiz, and ParkMobile is based on my own research of those products and their reviews, and the sources are listed in the References section. None of that text came from Gemini.
 - I wrote my own acquisition story for the project (commissioned by a regional parking operator working with a city transportation department through a request for proposal) instead of using the example scenarios Gemini offered.
 - I wrote the fifteen use cases myself as user stories in the format "As a role, I want a goal so that a benefit," and I mapped them to the high level feature list.
+- The Work Breakdown Structure, schedule, and Gantt chart that I add to the document are my own work, built in [name the tool you used, for example Excel, Draw.io, Lucidchart, or Mermaid.js], with my own task breakdown, durations, dependencies, and team assignments. I did not copy Gemini's example hierarchy or its sample Gantt table.
 
 **Verification:**
 I checked Gemini's structural advice against the assignment instructions and the course slides, confirmed the competitive claims against the sources in the References section, and reviewed all wording. No text was copied from Gemini into the document without being rewritten in my own words.
