@@ -86,6 +86,18 @@ Prompt 7:
 Do you recommend me to use Power Point to build both WBS and Gantt chart?
 ```
 
+Prompt 8:
+
+```
+Could you tell me what is necessary in a backlog?
+```
+
+Prompt 9:
+
+```
+What is the difference between creating a Scrum Backlog in Jira and in Trello? Which one do you recommend to use?
+```
+
 **What I kept and what I changed:**
 
 What I kept as guidance:
@@ -95,6 +107,8 @@ What I kept as guidance:
 - The idea of a deliverable oriented Work Breakdown Structure organized in hierarchy levels (the overall project, major subsystems, deliverables, and work packages), the rule that the breakdown should cover one hundred percent of the scope, and the guidance that a work package should represent roughly one day to two weeks of work. This informed how I plan the Work Breakdown Structure in the project management section.
 - The phase based semester timeline (initiation and scope, requirements, system design and project management plan, implementation and integration, quality assurance, and final delivery) and the essential elements of a Gantt chart (task identifier and name, start and end dates, predecessors, assigned team, and percent complete). This informed how I plan the project schedule and Gantt chart.
 - The recommendation to build the Work Breakdown Structure and the Gantt chart in a dedicated tool and insert them as captioned images rather than building them in PowerPoint. This informed my tooling choice for those diagrams.
+- The elements of a product backlog: a unique item ID that traces to the WBS and SRS, the user story format, acceptance criteria in the Given, When, Then format, MoSCoW prioritization, and story point estimation, plus the backlog table layout (Story ID, User Class, User Story Statement, Priority, Story Points, WBS reference).
+- The comparison of Jira and Trello and the recommendation to use Jira for a project like this, which helped to know how I plan to manage the backlog.
 
 What I changed or wrote myself:
 - I did not use Gemini's proposed top level outline as it was. I reorganized the document into my own structure: a dedicated Introduction (Purpose, Intended Audience, Document Conventions), followed by separate top level sections for Research and Competitive Analysis, Vision and Scope, the Software Requirements Specification, Stakeholder Analysis and Management, Project Schedule, Budget, Risk Management, Team Structure and Coordination, Appendices, and References.
