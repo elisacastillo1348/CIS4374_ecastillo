@@ -98,6 +98,18 @@ Prompt 9:
 What is the difference between creating a Scrum Backlog in Jira and in Trello? Which one do you recommend to use?
 ```
 
+Prompt 10:
+
+```
+If I plan to do risks for each category such like technical, schedule, financial, and people on this project, what type of structure do you recommend for me to use?
+```
+
+Prompt 11:
+
+```
+Could you give me recomendations of the Communication Plan structure for a project like this?
+```
+
 **What I kept and what I changed:**
 
 What I kept as guidance:
@@ -109,13 +121,17 @@ What I kept as guidance:
 - The recommendation to build the Work Breakdown Structure and the Gantt chart in a dedicated tool and insert them as captioned images rather than building them in PowerPoint. This informed my tooling choice for those diagrams.
 - The elements of a product backlog: a unique item ID that traces to the WBS and SRS, the user story format, acceptance criteria in the Given, When, Then format, MoSCoW prioritization, and story point estimation, plus the backlog table layout (Story ID, User Class, User Story Statement, Priority, Story Points, WBS reference).
 - The comparison of Jira and Trello and the recommendation to use Jira for a project like this, which helped to know how I plan to manage the backlog.
+- I kept Gemini's four categories and four response strategies (Avoid, Mitigate, Transfer, Accept), but changed the scoring to five point scales with a 5x5 matrix, expanded it to sixteen project specific risks instead of a few examples, and added Owner, Status, mitigation actions, and a two week review cycle.
+- I kept Gemini's audience matrix and its meeting cadence idea, but built the plan around my six actual teams, compressed its five sections into two tables with generic methods rather than named tools, and added my own analysis (the N(N-1)/2 channel formula and the Knight Capital control from lecture 5).
 
 What I changed or wrote myself:
 - I did not use Gemini's proposed top level outline as it was. I reorganized the document into my own structure: a dedicated Introduction (Purpose, Intended Audience, Document Conventions), followed by separate top level sections for Research and Competitive Analysis, Vision and Scope, the Software Requirements Specification, Stakeholder Analysis and Management, Project Schedule, Budget, Risk Management, Team Structure and Coordination, Appendices, and References.
 - I wrote all of the content in my own words. The competitive analysis of SpotHero, ParkWhiz, and ParkMobile is based on my own research of those products and their reviews, and the sources are listed in the References section. None of that text came from Gemini.
 - I wrote my own acquisition story for the project (commissioned by a regional parking operator working with a city transportation department through a request for proposal) instead of using the example scenarios Gemini offered.
 - I wrote the fifteen use cases myself as user stories in the format "As a role, I want a goal so that a benefit," and I mapped them to the high level feature list.
-- The Work Breakdown Structure, schedule, and Gantt chart that I add to the document are my own work, built in [name the tool you used, for example Excel, Draw.io, Lucidchart, or Mermaid.js], with my own task breakdown, durations, dependencies, and team assignments. I did not copy Gemini's example hierarchy or its sample Gantt table.
+- The Work Breakdown Structure, schedule, and Gantt chart I built in Excel and PowerPoint, with my own task breakdown, durations, dependencies, and team assignments. I did not copy Gemini's example hierarchy or its sample Gantt table.
+- I turned Gemini's basic template into a more rigorous model of my own, replacing its three point PxI score with five point scales and a 5x5 matrix (Low to Extreme), writing sixteen risks specific to the platform instead of two examples per category, and adding Owner, Status, mitigation actions, and a two week review cycle.
+- I built the plan around my six actual delivery teams instead of Gemini's generic roles, and compressed its five sections into two tables with generic methods rather than named tools, the N(N-1)/2 channel formula and the Knight Capital control from Lecture 5.
 
 **Verification:**
 I checked Gemini's structural advice against the assignment instructions and the course slides, confirmed the competitive claims against the sources in the References section, and reviewed all wording. No text was copied from Gemini into the document without being rewritten in my own words.
