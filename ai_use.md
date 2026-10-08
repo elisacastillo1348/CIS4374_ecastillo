@@ -110,6 +110,23 @@ Prompt 11:
 Could you give me recomendations of the Communication Plan structure for a project like this?
 ```
 
+Prompt 12:
+
+```
+If I am supposed to do a Roles and Resources table for the project, what do you recommend this table should include?
+```
+
+Prompt 13:
+
+```
+What's the difference between a Bottom-Up or Top-Down cost plan and which one do you recommend to add in my project?
+```
+
+Prompt 14:
+
+```
+Do you recommend adding a short narrative justification before or after the cost table?
+```
 **What I kept and what I changed:**
 
 What I kept as guidance:
@@ -123,6 +140,8 @@ What I kept as guidance:
 - The comparison of Jira and Trello and the recommendation to use Jira for a project like this, which helped to know how I plan to manage the backlog.
 - I kept Gemini's four categories and four response strategies (Avoid, Mitigate, Transfer, Accept), but changed the scoring to five point scales with a 5x5 matrix, expanded it to sixteen project specific risks instead of a few examples, and added Owner, Status, mitigation actions, and a two week review cycle.
 - I kept Gemini's audience matrix and its meeting cadence idea, but built the plan around my six actual teams, compressed its five sections into two tables with generic methods rather than named tools, and added my own analysis (the N(N-1)/2 channel formula and the Knight Capital control from lecture 5).
+- The bottom up estimating method, meaning that every line is priced at its own level and the lines are summed into the total, rather than dividing a target figure downward. This informed how I built Section 7.1.
+- The idea that a cost table should be preceded by a short narrative that states the method, the estimating unit, where the effort is concentrated, and how contingency is handled. This informed the opening paragraphs of Sections 7.1 and 7.2.
 
 What I changed or wrote myself:
 - I did not use Gemini's proposed top level outline as it was. I reorganized the document into my own structure: a dedicated Introduction (Purpose, Intended Audience, Document Conventions), followed by separate top level sections for Research and Competitive Analysis, Vision and Scope, the Software Requirements Specification, Stakeholder Analysis and Management, Project Schedule, Budget, Risk Management, Team Structure and Coordination, Appendices, and References.
@@ -132,6 +151,11 @@ What I changed or wrote myself:
 - The Work Breakdown Structure, schedule, and Gantt chart I built in Excel and PowerPoint, with my own task breakdown, durations, dependencies, and team assignments. I did not copy Gemini's example hierarchy or its sample Gantt table.
 - I turned Gemini's basic template into a more rigorous model of my own, replacing its three point PxI score with five point scales and a 5x5 matrix (Low to Extreme), writing sixteen risks specific to the platform instead of two examples per category, and adding Owner, Status, mitigation actions, and a two week review cycle.
 - I built the plan around my six actual delivery teams instead of Gemini's generic roles, and compressed its five sections into two tables with generic methods rather than named tools, the N(N-1)/2 channel formula and the Knight Capital control from Lecture 5.
+- Gemini's Roles and Resources layout mixed people with tools and listed category, assignee, responsibilities, and access permissions. I did not use it. My Section 9.4 is a staffing table with twenty fictional roles, each with a skill level assumption, an FTE percentage, estimated hours, an hourly rate, and a cost, and I moved tools, licenses, and hardware into the cost plan in Section 7.1 instead.
+- Gemini suggested pricing by task identifier at one nominal rate of thirty dollars per hour with zero tooling cost. I priced labor from the roles in Section 9.4 at rates that vary by seniority, and I carried real non labor categories for infrastructure, 3rd party APIs, licenses, hardware, legal and compliance, and training, because the platform depends on paid mapping, payment, and sensor services.
+- Gemini recommended folding a fifteen percent buffer into each task estimate. I added contingency as a separate visible reserve line on top of the subtotal so it can be reviewed and released rather than hidden inside the estimates.
+- The budgeted cashflow in Section 7.2 is my own. Gemini gave no guidance on it. I built four periods aligned to the phases in Section 6.3, spread labor along the staffing ramp, placed each non labor cost in the period that triggers it, and added a check confirming the cashflow total equals the cost plan total.
+- The cost per reservation figure at the end of Section 7.1 is my own addition and was not suggested by Gemini.
 
 **Verification:**
 I checked Gemini's structural advice against the assignment instructions and the course slides, confirmed the competitive claims against the sources in the References section, and reviewed all wording. No text was copied from Gemini into the document without being rewritten in my own words.
