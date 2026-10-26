@@ -134,6 +134,18 @@ Prompt 15:
 How should I use Appendices section if I have one long table?
 ```
 
+Prompt 16:
+
+```
+If I am doing a Stakeholder analysis with a Power-Interest Grid, tell me what every requirement means so I understand it in an easier/simpler way.
+```
+
+Prompt 17:
+
+```
+Now help me understand the requirements for a team charter and project charter for this type of project so I can understand it easily.
+```
+
 **What I kept and what I changed:**
 
 What I kept as guidance:
@@ -150,6 +162,7 @@ What I kept as guidance:
 - The bottom up estimating method, meaning that every line is priced at its own level and the lines are summed into the total, rather than dividing a target figure downward. This informed how I built Section 7.1.
 - The idea that a cost table should be preceded by a short narrative that states the method, the estimating unit, where the effort is concentrated, and how contingency is handled. This informed the opening paragraphs of Sections 7.1 and 7.2.
 - I kept the idea of moving a table that breaks the narrative flow into an appendix, with a short intro before it, a repeating header row, numbering tied to the appendix, and a link back to the section it supports.
+- I kept the split between a project charter that defines the work (vision, business need, scope in and out, deliverables, milestones) and a team charter that defines how the people work (communication norms, decision making, accountability, quality standards, conflict resolution).
 
 What I changed or wrote myself:
 - I did not use Gemini's proposed top level outline as it was. I reorganized the document into my own structure: a dedicated Introduction (Purpose, Intended Audience, Document Conventions), followed by separate top level sections for Research and Competitive Analysis, Vision and Scope, the Software Requirements Specification, Stakeholder Analysis and Management, Project Schedule, Budget, Risk Management, Team Structure and Coordination, Appendices, and References.
@@ -165,6 +178,7 @@ What I changed or wrote myself:
 - The budgeted cashflow in Section 7.2 is my own. Gemini gave no guidance on it. I built four periods aligned to the phases in Section 6.3, spread labor along the staffing ramp, placed each non labor cost in the period that triggers it, and added a check confirming the cashflow total equals the cost plan total.
 - The cost per reservation figure at the end of Section 7.1 is my own addition and was not suggested by Gemini.
 - I wrote the Section 10 and Appendix A intros myself, kept my own heading and caption conventions, skipped the category divider rows and the landscape orientation because my identifier prefixes already group the items and the table has only six columns, and built all 169 backlog items from Sections 4.3 and 6.1 rather than from Gemini’s example matrix.
+- I filed both charters as signed appendix tables tied back to the body sections instead of prose checklists, added the fields Gemini never listed (sponsor, project manager authority, objectives, budget, stakeholders, risks, assumptions, constraints, success criteria, approval block), and replaced its generic examples with my six teams and leads, the meeting cadence, the Jira item key rule, architect ownership of interfaces, and the two day tie break.
 
 **Verification:**
 I checked Gemini's structural advice against the assignment instructions and the course slides, confirmed the competitive claims against the sources in the References section, and reviewed all wording. No text was copied from Gemini into the document without being rewritten in my own words.
